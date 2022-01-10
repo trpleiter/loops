@@ -35,10 +35,11 @@ for (let i = 0; i < 4; i++) {
 // 3 is oneven
 // .... etc.
 // 15 is oneven
+
 for (i = 0; i < 16; i++) {
     if (i % 2 === 0) {
-        console.log(i + " is even")
-    } else{
+        console.log(i + " is even");
+    } else {
         (i % 2 === 1)
         {
             console.log(i + " is oneven");
@@ -65,3 +66,12 @@ for (i = 0; i < 16; i++) {
 // >> 9
 // ==========================================
 
+for (i = 0; i < 10; i++) {
+    if (i < 3) {
+        console.log(i);
+    } else if (i > 2 && i < 6) {
+        console.log(">" + i)
+    } else {
+        console.log(">>" + i)
+    }
+}
